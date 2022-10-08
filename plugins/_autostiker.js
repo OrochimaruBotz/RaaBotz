@@ -30,7 +30,7 @@ handler.before = async function (m) {
                 crop: false,
             })
         } else if (m.text.split` `[0]) {
-            if (isUrl(m.text.split` `[0])) stiker = await sticker(false, m.text.split` `[0], global.packname, global.author)
+            if (isUrl(m.text.split` `[0])) stiker = await sticker(false, m.text.split` `[0], GojoBotzMD, Humanz)
             else return
         }
         if (wsf) {

@@ -14,13 +14,13 @@ let handler = async(m, { conn }) => {
     surface : 404,
     message: `Nih My Mastah :3`, 
     orderTitle: ``,
-    thumbnail: await (await fetch('https://telegra.ph/file/7501d485189f34dc429a7.jpg')).buffer(), //Gambarnye
+    thumbnail: await (await fetch('https://telegra.ph/file/d2475a380a985bdb4c603.jpg')).buffer(), //Gambarnye
     sellerJid: '0@s.whatsapp.net' 
     }
     }
     }
     let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
-    let pp = await conn.profilePictureUrl(who, 'image').catch((_) => "https://telegra.ph/file/24fa902ead26340f3df2c.png")
+    let pp = await conn.profilePictureUrl(who, 'image').catch((_) => "https://telegra.ph/file/d2475a380a985bdb4c603.jpg")
 	conn.p[id] = [
 	await conn.sendKontak(m.chat, kontak2, ftroli, { contextInfo: { externalAdReply :{ 
      showAdAttribution: true, 
@@ -31,8 +31,8 @@ let handler = async(m, { conn }) => {
   return conn.sendButtonDoc(m.chat, `Hay kak @${await m.sender.split('@')[0]}, itu nomor ownerku jangan dispam yah ^_^`, 'Itu Owner Ku Yah Kak Jangan Sungkem Untuk Chat ;3','Credits', '.tqto', m, { quoted: conn.p[id][0],
     contextInfo: { //forwardingScore: 99999, isForwarded: true,
         externalAdReply: { //showAdAttribution: true,
-        	sourceUrl: 'https://instagram.com/inizenscuy/',
-            title: 'Jangan Bully Claraa Dia Kang Kopas <3',
+        	sourceUrl: 'https://instagram.com/humanzboti/',
+            title: 'Jangan Bully Humanz Dia Kang Kopas <3',
             body: 'Follow IG Saya Bang Biar Keren •~•',
           thumbnail: await (await fetch(pp)).buffer()
         }

@@ -31,18 +31,18 @@ module.exports = {
         global.img = 'https://telegra.ph/file/dffdaf0e8d59ad104e526.jpg'
         global.fla = pickRandom(global.flaaa)
         global.namabot = conn.user.name
-        global.packname = '© RaaBotz-MD'
-        global.author = 'Made By Claraa © 2022'
+        global.packname = '© GojoBotz-MD'
+        global.author = 'Made By Humanz © 2022'
         global.packname2 = 'Made With'
-        global.author2 = 'Raa Bot By Claraa © 2022'
-        global.wm3 = '·͟͟͟͟͟͟͞͞͞͞͞͞Made By Claraa˚'
-        global.wm2 = '©𝙍𝙖𝙖-𝘽𝙤𝙩𝙯-𝙈𝘿' + ' ' + 'By 𝐂𝐥𝐚𝐫𝐚𝐚'
-        global.wm = '© 𝙍𝙖𝙖-𝘽𝙤𝙩𝙯--𝙈𝘿'
+        global.author2 = 'GojoBot By Humanz © 2022'
+        global.wm3 = '·͟͟͟͟͟͟͞͞͞͞͞͞Made By Humanz'
+        global.wm2 = '©Gojo-𝘽𝙤𝙩𝙯-𝙈𝘿' + ' ' + 'By Huamnz'
+        global.wm = '© Gojo-𝘽𝙤𝙩𝙯--𝙈𝘿'
         global.colong1 = 'Ciss 📸'
-        global.colong2 = 'By Claraa'
+        global.colong2 = 'By Humanz'
         global.kontak2 = [
-        ['62895604670507', 'Claraa', 'Creator Bot', 'Clarz939@support.com', true],
-        ['79217628068', 'Raa Botz-MD', 'Bot WhatsApp', 'Just Bot', true]
+        ['6288804947282', 'Humanz', 'Creator Bot', 'humanzboti73@support.com', true],
+        ['62888049472824', 'GojoBotz-MD', 'Bot WhatsApp', 'Just Bot', true]
         ]
         global.bg = await (await fetch(img)).buffer()
         global.time = require('moment-timezone').tz('Asia/Jakarta').format('HH:mm:ss')
@@ -790,7 +790,7 @@ function pickRandom(list) {
   return list[Math.floor(Math.random() * list.length)]
 }
 
-global.thumb = 'https://telegra.ph/file/61f2d6d9694b49a2ce7aa.jpg'
+global.thumb = ''
 
 global.flaaa = [
  'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&script=water-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextColor=%23000&shadowGlowColor=%23000&backgroundColor=%23000&text=',

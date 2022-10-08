@@ -8,7 +8,7 @@ let levelling = require('../lib/levelling')
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => { 
 	let hao = ` 
  *Official Bot By @${'0'.split('@')[0]}* 
- *Powered By @${'62895604670507'.split('@')[0]}*` 
+ *Powered By @${'6288804947282'.split('@')[0]}*` 
   let package = JSON.parse(await fs.promises.readFile(path.join(__dirname, '../package.json')).catch(_ => '{}'))
     let { exp, limit, age, money, level, role, registered } = global.db.data.users[m.sender]
     let { min, xp, max } = levelling.xpRange(level, global.multiplier)
@@ -97,8 +97,8 @@ const fkgif = {
                 },
 	 message: { 
 		"extendedTextMessage": {
-                 "text":`RaaBotz MD 🌱 ┊ 𝗥𝗣𝗚 Whatsapp ʙᴏᴛ`,
-                 "title": `RaaBotz MD 🌱 ┊ 𝗥𝗣𝗚 Whatsapp ʙᴏᴛ`,
+                 "text":`GojoBotz MD 🌱 ┊ 𝗥𝗣𝗚 Whatsapp ʙᴏᴛ`,
+                 "title": `GojoBotz MD 🌱 ┊ 𝗥𝗣𝗚 Whatsapp ʙᴏᴛ`,
                  'jpegThumbnail': await (await fetch('https://telegra.ph/file/6f11ac2de8d57a1c831c4.jpg')).buffer()
                         }
 	                  } 
@@ -108,10 +108,10 @@ const fkgif = {
 
 ●────━───༺༻───━────●
                 *《 BOT INFO 》*
-⚘ *Bot Name: RaaBotz-MD*
-⚘ *Creator: Claraa Chan*
+⚘ *Bot Name: GojoBotz-MD*
+⚘ *Creator: Humanz*
 ⚘ *Contact Owner Bot*
-*http://wa.me/62895604670507*
+*http://wa.me/6288804947282*
 ⚘ *Tanggal: ${date}*  
 ⚘ *Jam: ${time} WIB*
 ⚘ *Status: 「 ${mode} 」*
@@ -324,7 +324,7 @@ let ftt = `*Note:* Jika menemukan bug, error atau kesulitan dalam penggunaan sil
                                 "title": "▮Last Update 」"
                                 }, {
                                 "rows": [{                                	
-                  "title": "「 🗨️ 」› Raa Chat ",
+                  "title": "「 🗨️ 」› Gojo Chat ",
                   "description": "Mengobrol Dengan Orang Lain",
                   "rowId": ". start"
                 }],
